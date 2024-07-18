@@ -39,12 +39,13 @@
     "devDependencies": {
         "@rollup/plugin-typescript": "^11.1.6",
         "@types/node": "^20.14.11",
+        "node-gyp": "^10.2.0",
         "rollup-plugin-typescript-paths": "^1.5.0",
         "tslib": "^2.6.3",
         "vite": "^5.3.4",
         "vitest": "^2.0.3"
     },
     "dependencies": {
-        "nekomap": "^0.0.0"
+        "nekomap": "^0.0.1"
     }
 }

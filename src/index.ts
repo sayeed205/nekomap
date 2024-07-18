@@ -29,19 +29,11 @@ export default class Nekomap {
             if (!url.protocol.startsWith('http')) {
                 throw new Error('Invalid URL');
             }
+            this.site = url.origin;
         } catch {
             throw new Error('Invalid URL');
         }
     }
-
-    // private async getSitemapData(url: string) {
-    //     const response = await fetch(url);
-    //     if (response.ok) {
-    //         return response.text();
-    //     }
-
-    //     return null;
-    // }
 
     private async fetchText(url: string) {
         try {
