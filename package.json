@@ -1,0 +1,52 @@
+{
+    "name": "nekomap",
+    "version": "0.0.0",
+    "description": "Sitemap utility. NOTE: This is not a sitemap generator.",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "prepublish": "pnpm build",
+        "test": "vitest",
+        "coverage": "vitest run --coverage",
+        "local": "ts-node test.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sayeed205/nekomap.git"
+    },
+    "keywords": [
+        "nekomap",
+        "sitemap",
+        "utility",
+        "get sitemap",
+        "sitemap getter",
+        "find sitemap",
+        "sitemap finder"
+    ],
+    "author": "Sayed Ahmed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sayeed205/nekomap/issues"
+    },
+    "homepage": "https://github.com/sayeed205/nekomap",
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.14.11",
+        "@types/xml2json": "^0.11.6",
+        "rollup-plugin-typescript-paths": "^1.5.0",
+        "tslib": "^2.6.3",
+        "vite": "^5.3.4",
+        "vitest": "^2.0.3"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.12",
+        "xml2json": "^0.12.0"
+    }
+}
