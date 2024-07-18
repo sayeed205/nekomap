@@ -1,6 +1,6 @@
 {
     "name": "nekomap",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Sitemap utility. NOTE: This is not a sitemap generator.",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
